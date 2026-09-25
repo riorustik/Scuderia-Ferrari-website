@@ -42,7 +42,20 @@ p {
     letter-spacing: 3px;
     text-transform: uppercase;
 
-    color: #BD162C;
+    color: #BD162C !important;
+}
+
+.common-section {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.common-section--dark {
+    background-color: #192024;
+
+    * {
+        color: #fff;
+    }
 }
 
 .header {
@@ -55,6 +68,7 @@ p {
     z-index: 100;
 
     background-color: #ffffff;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
 }
 
 .header__container {
@@ -192,6 +206,7 @@ p {
     .cards-wrapper {
         display: flex;
         justify-content: space-between;
+
     }
 
     .card {
@@ -222,17 +237,20 @@ p {
 
 }
 
-.common-section {
-    text-align: center;
-    padding: 80px 0;
+.car {
+    display: flex;
+    justify-content: space-between;
+
+    img {
+        width: 200px;
+    }
+
+    margin-bottom: 30px;
 }
 
-
-
-
-
-
-
+.car-text {
+    margin-bottom: 20px;
+}
 
 
 
