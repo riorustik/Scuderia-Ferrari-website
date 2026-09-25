@@ -108,7 +108,7 @@ p {
 }
 
 .welcome__links {
-    &>* + *{ /*любой элемент внутри welcome__links у которого есть сосед слева*/
+    & > * + * { /*любой элемент внутри welcome__links у которого есть сосед слева*/
         margin-left: 20px;
     }
 }
@@ -125,11 +125,13 @@ p {
     border-radius: 4px;
 
     transition: background-color 0.2s;
+
     &:hover {
         background-color: #720613;
     }
+
     &:active {
-        background-color:#111111;
+        background-color: #111111;
     }
 }
 
@@ -145,10 +147,12 @@ p {
     border-radius: 4px;
 
     transition: background-color 0.2s;
+
     &:hover {
         background-color: rgb(255 255 255 / 0.3);
         border-color: rgb(255 255 255 / 0.5);
     }
+
     &:active {
         background-color: rgb(17 17 17 / 0.2);
         border-color: rgb(17 17 17 / 0.5);

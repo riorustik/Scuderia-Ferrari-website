@@ -24,7 +24,7 @@ p + p {
     margin-top: 1em;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
@@ -57,10 +57,10 @@ button::-moz-focus-inner {
     border: none;
 }
 
-table{
+table {
     cursor: pointer;
 }
 
-legend{
+legend {
     display: block;
 }
