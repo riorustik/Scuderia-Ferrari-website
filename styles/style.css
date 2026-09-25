@@ -132,7 +132,7 @@ p {
 
     color: #ffffff;
     background-color: #BD162C;
-    background-image: url("./img/header-banner.jpg");
+    background-image: url("../img/header-banner.jpg");
     /*filter: grayscale(100%);*/
     background-size: cover;
     background-position: center;
@@ -240,11 +240,6 @@ p {
 .car {
     display: flex;
     justify-content: space-between;
-
-    img {
-        width: 200px;
-    }
-
     margin-bottom: 30px;
 }
 
