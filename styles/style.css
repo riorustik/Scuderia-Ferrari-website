@@ -218,11 +218,7 @@ p {
         img {
             margin-bottom: 20px;
 
-            width: 2500px;
             height: 300px;
-            object-fit: cover;
-
-
         }
 
         h4 {
@@ -234,7 +230,6 @@ p {
             color: #BD162C;
         }
     }
-
 }
 
 .car {
@@ -248,5 +243,37 @@ p {
 }
 
 
+.tabs__nav{
 
+    button{
+        color: #FFFFFF;
+        margin-bottom: 30px;
+    }
+
+    button + button {
+        margin-left: 30px;
+    }
+}
+
+.tabs__content{
+    display: flex;
+
+    img{
+        width: 500px;
+        height: 450px;
+        border-radius: 10px;
+    }
+    h4{
+        margin: 15px 0;
+    }
+    p{
+        padding: 10px;
+    }
+}
+
+.tabs-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
